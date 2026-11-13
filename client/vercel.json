@@ -1,0 +1,25 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://zoho-tech-blog-api.onrender.com/api/:path*"
+    },
+    {
+      "source": "/uploads/:path*",
+      "destination": "https://zoho-tech-blog-api.onrender.com/uploads/:path*"
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "https://zoho-tech-blog-api.onrender.com/sitemap.xml"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "https://zoho-tech-blog-api.onrender.com/robots.txt"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
